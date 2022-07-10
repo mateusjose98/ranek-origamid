@@ -12,6 +12,14 @@ export default new Router({
       path: "/",
       name: "home",
       component: Home
+    },
+    {
+      path: "/produto",
+      name: "produto",
+      component: Home
     }
-  ]
+  ],
+  scrollBehavior() {
+    return window.scrollTo({top: 0, behavior: "smooth"})
+  }
 });
