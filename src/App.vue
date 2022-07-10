@@ -40,7 +40,8 @@ ul {
 }
 
 body {
-  font-family: "Avenir", Helvetica, Arial, sans-serif;
+
+  font-family: 'Sen', sans-serif;
   color: #345;
   background: url("./assets/pattern.svg") repeat top;
 }
