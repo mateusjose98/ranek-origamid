@@ -43,11 +43,7 @@ export default {
       return `/produto?_limit=${this.produtosPorPagina}${query}`;
     }
   },
-  filters: {
-    numeroPreco(value){
-      return value
-    }
-  },
+
   methods: {
     getProdutos() {
       this.produtos = null;
